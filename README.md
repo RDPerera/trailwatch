@@ -27,7 +27,7 @@ flutter pub get
 flutter run
 ```
 
-The mobile app uses `https://dash.dilanp.duckdns.org` by default. A different backend can still be supplied with `--dart-define=TRAILWATCH_API_URL=https://example.com` or changed from the app's server settings.
+The mobile app uses `https://trailwatch.dilanp.duckdns.org` by default. A different backend can still be supplied with `--dart-define=TRAILWATCH_API_URL=https://example.com` or changed from the app's server settings.
 
 ## MVP behavior
 

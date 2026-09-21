@@ -8,4 +8,4 @@ Run against the local TrailWatch server:
 flutter run
 ```
 
-The app connects to `https://dash.dilanp.duckdns.org` by default. The server URL can also be changed from the app's join screen.
+The app connects to `https://trailwatch.dilanp.duckdns.org` by default. The server URL can also be changed from the app's join screen.

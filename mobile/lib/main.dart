@@ -13,7 +13,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 const defaultApiUrl = String.fromEnvironment(
   'TRAILWATCH_API_URL',
-  defaultValue: 'https://dash.dilanp.duckdns.org',
+  defaultValue: 'https://trailwatch.dilanp.duckdns.org',
 );
 
 void main() => runApp(const TrailWatchApp());
