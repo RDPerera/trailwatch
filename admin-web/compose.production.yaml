@@ -1,0 +1,24 @@
+services:
+  trailwatch-admin:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: trailwatch-admin
+    restart: unless-stopped
+    ports:
+      - "5173:5173"
+    volumes:
+      - trailwatch-d1:/data
+    healthcheck:
+      test:
+        - CMD
+        - node
+        - -e
+        - fetch('http://127.0.0.1:5173').then(r=>{if(!r.ok)process.exit(1)}).catch(()=>process.exit(1))
+      interval: 30s
+      timeout: 5s
+      retries: 5
+      start_period: 30s
+
+volumes:
+  trailwatch-d1:

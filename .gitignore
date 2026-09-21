@@ -1,0 +1,18 @@
+# Local repository metadata retained from the dashboard's standalone history
+/admin-web/.git-local-history/
+
+# JavaScript dependencies and generated output
+**/node_modules/
+**/.next/
+**/.vinext/
+**/dist/
+**/.wrangler/
+**/.sites-runtime/
+**/.dart_tool/
+**/build/
+**/coverage/
+
+# Local environment and tooling files
+**/.env*
+.DS_Store
+*.log

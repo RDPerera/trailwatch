@@ -1,0 +1,9 @@
+.git
+.next
+.vinext
+.wrangler
+.sites-runtime
+dist
+node_modules
+npm-debug.log*
+.DS_Store
